@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   /* div ul li:nth-child(3n){
+        color: aqua;
+    }*/
+    input:focus{
+        background-color: bisque;
+    }
+    input:hover{
+        border: 1px solid greenyellow;
+    }
+   input[type="checkbox"]:checked{
+      box-shadow: 0 0 10px 10px solid greenyellow;
+    }
+    input:required{
+        border: 2px solid blue;
+    }
+    input::placeholder{
+        color: aqua;
+    }
+    
+</style>
+<body>
+    <div>
+       <!-- <ul>
+            <li>qwe</li>
+            <li>qwee</li>
+            <li>qweer</li>
+            <li>qweerr</li>
+           <li> qweert</li>
+           <li>qwe</li>
+        </ul> -->
+        <form action="">
+            name
+            <input type="text"> <br>
+            password
+            <input type="password" minlength="4" placeholder="[2-6]{5}"> <br>
+            DOB
+            <input type="date"> <br>
+            <label for="" name="hobby" id="hobby"> hobby</label>
+            <input type="checkbox" name="" id="hobby">cricker
+            <input type="checkbox" name="" id="hobby">football
+            <input type="checkbox" name="" id="hobby" >golf
+            <input type="checkbox" name="" id="hobby">boxing <br>
+            <input type="reset">
+
+        </form>
+
+    </div>
+</body>
+</html>
